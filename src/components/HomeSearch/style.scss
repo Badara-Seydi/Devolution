@@ -1,0 +1,20 @@
+.searchDisconnect{
+  text-align: center;
+  margin-top: 15%;
+  
+  &__header{
+    height: 20vh;
+    min-height: 150px;
+    background: linear-gradient(180deg, #1A3A58 20%, #346797 100%);
+    padding: 30px;
+  }
+  &__title{
+    font-size: 2rem;
+    margin-top: 40px;
+  }
+  &__resultNumber{
+    font-size: 1.4rem;
+    margin-top: 10px;
+    display: inline-block;
+  }
+}

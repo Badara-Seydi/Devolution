@@ -1,0 +1,13 @@
+.profile {
+    &__status-available{
+        color: green;
+      }
+    
+      &__status-soonavailable{
+        color: orange;
+      }
+    
+      &__status-notavailable{
+        color: red;
+      }
+}

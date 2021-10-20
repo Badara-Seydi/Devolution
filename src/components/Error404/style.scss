@@ -1,0 +1,27 @@
+.error404 {
+  height: 100vh;
+  max-width: 100%;
+  color: white;
+  background: linear-gradient(0deg, #1A3A58 20%, #12273b 100%);
+  background-color: #12273b;
+  padding: 35px;
+  text-align: center;
+
+  &__title{
+    font-size: 4em;
+    font-weight: 600;
+    letter-spacing: .05rem;
+    margin: 3%;
+    margin-top: 10vh;
+  }
+  &__description{
+    font-size: 1.3em;
+    font-weight: 200;
+    margin: 2% auto;
+    width: 50%;
+  }
+  &__image{
+    margin: 3% auto;
+    width: 20%;
+  }
+}

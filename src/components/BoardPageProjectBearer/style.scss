@@ -1,0 +1,49 @@
+// p,
+// h3 {
+//   //padding: 6px;
+// }
+
+.board {
+
+  &__my-projects{
+    display: flex;
+    flex-direction: column;
+    background-color: #F9F9F9;
+  }
+
+  &__new-project{
+    width: 90%;
+    margin: 30px auto;
+    background-color: #1A3A58;
+    padding: 1.5%;
+
+    border-radius: 15px;
+    margin-bottom: 0.5em;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.035);
+
+    display: flex;
+    flex-direction: row;
+  }
+
+  &__new-project-card{
+    color: white;
+    font-size: 1.5em;
+
+    & p {
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      & svg {
+        margin-right: 1em;
+      }
+    }
+  }
+
+  &__component{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+  }
+}

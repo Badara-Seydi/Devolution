@@ -1,0 +1,25 @@
+@use 'src/styles/vars';
+
+.app {
+  //width: 100vw;
+  //height: 100vh;
+  position: relative;
+  box-sizing: border-box;
+  background-color: #F9F9F9;
+
+  .islog {
+    margin-left: vars.$navbarWidth;
+    margin-bottom: vars.$footerHeigt;
+    padding-top: 8vh;
+    min-height: 100vh;
+  }
+}
+
+@media (max-width: 780px) {
+  // Quand 780px ou moins, je cible la premiere div .islog (premier enfant de app)
+  // et j'annule le décalage de islog pour recentrer avec un margin auto
+  .app div.islog {
+    margin: 0 auto;
+    margin-top: vars.$navbarHeigt;
+  }
+}

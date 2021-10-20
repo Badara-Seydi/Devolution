@@ -1,0 +1,11 @@
+.profile{
+    &__city-links {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+      }
+
+    &__city {
+        margin: auto 0;
+    }
+}

@@ -1,0 +1,54 @@
+@use 'src/styles/vars';
+
+.signup {
+
+  &__component {
+    min-width: 25em;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0 2em;
+  }
+
+  &__title {
+    font-size: 30px;
+    margin-bottom: 1em;
+  }
+
+  &__form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__input {
+    border-radius: 25px;
+    padding: 10px;
+    width: 24em;
+    border: none;
+    margin-bottom: 20px;
+  }
+
+  &__input:read-write {
+    font-family: "Nunito";
+  }
+
+  &__send {
+    border-radius: 25px;
+    padding: 10px;
+    width: 24em;
+    border: none;
+    margin-bottom: 20px;
+    background-color: #0d273f;
+    color: white;
+    font-family: "Nunito";
+  }
+
+  @media (max-width: vars.$layout-breakpoint-small) {
+    &__component {
+      margin: 2em;
+    }
+  }
+}

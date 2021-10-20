@@ -1,0 +1,109 @@
+p,
+h3 {
+  padding: 6px;
+}
+
+.element {
+  border: solid lightgray 1px;
+  border-radius: 15px;
+  margin-top: 0.5em;
+  padding: 0.5em;
+}
+
+.project-home {
+  &__page {
+    display: flex;
+    flex-direction: row;
+    margin-top: 25%;
+  }
+
+  &__subpage {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #F9F9F9;
+  }
+
+  &__component {
+    padding: 30px;
+    width: 90%;
+    color:#1a3a58d7;
+    margin: 0 auto;
+    background-color: white;
+
+    border: solid lightgray 1px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.035);
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__title {
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: #1a3a58d7;
+    margin-bottom: 10px;
+  }
+
+  &__bearer {
+    font-size: 1.5em;
+  }
+
+  &__subtitle {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #1a3a58d7;
+    margin-bottom: 10px;
+  }
+
+  &__text {
+    margin-bottom: 10px;
+  }
+
+  &__buttons {
+text-align: center;
+  }
+
+  &__button-participate,
+  &__button-unparticipate, 
+  &__button-delete,
+  &__button-modify {
+    text-align: center;
+    margin: 20px auto;
+    border-radius: 25px;
+    padding: 7px;
+    width: 25%;
+    border: none;
+    color: white;
+    font-family: "Nunito";
+    font-size: 1.2rem;
+  }
+
+  &__button-participate, 
+  &__button-modify {
+    background-color: #1a3a58;
+  }
+
+  &__button-unparticipate,
+  &__button-delete {
+    background-color: #bd2606;
+  }
+
+  &__button-modify-inside {
+    background-color: #1a3a58;
+    color: white;
+    font-family: "Nunito";
+    font-size: 1.2rem;
+    border: none;
+  }
+
+  &__competencies-list {
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+    line-height: 20px;
+    padding: 6px;
+  }
+}

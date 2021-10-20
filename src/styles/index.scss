@@ -1,0 +1,20 @@
+@use 'reset';
+@use 'vars';
+
+body {
+  font-family: 'Nunito', sans-serif;
+  color: #1A3A58;
+  background-color: #F9F9F9;
+}
+
+/* 
+  // or you can import your own font
+  @font-face {
+    font-family: 'Roboto';
+    src: url('../assets/fonts/Roboto-Regular.ttf');
+  }
+
+  body {
+    font-family: 'Roboto', sans-serif;
+  }
+*/

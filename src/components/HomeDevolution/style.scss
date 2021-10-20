@@ -1,0 +1,57 @@
+@use 'src/styles/vars';
+
+.header {
+  width: 100%;
+  color: white;
+  background: linear-gradient(0deg, #1A3A58 20%, #12273b 100%);
+  background-color: #12273b;
+  padding: 35px;
+  text-align: center;
+
+  &__title{
+    font-size: 4em;
+    font-weight: 600;
+    letter-spacing: .05rem;
+    margin: 3%;
+    margin-top: 2em;
+  }
+  &__description{
+    font-size: 1.2em;
+    line-height: 1.5em;
+    font-weight: 200;
+    margin: 2% auto;
+    width: 50%;
+    overflow: hidden;
+  }
+  &__input{
+    margin: 1em;
+    width: 30%;
+    min-width: 200px;
+    height: 3em;
+    border-radius: 30px;
+    border: none;
+    padding-left: 20px;
+  }
+
+  &__input::placeholder {
+    font-family: 'Nunito';
+  }
+}
+
+
+
+@media (max-width: vars.$layout-breakpoint-small ) {
+  /*
+  .header {
+    &__title {
+      display: none;
+    }
+    &__description {
+      display: none;
+    }
+    &__input {
+      margin-top: 80px;
+    }
+  }
+  */
+}

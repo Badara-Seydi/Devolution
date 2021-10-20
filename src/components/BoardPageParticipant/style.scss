@@ -1,0 +1,62 @@
+p,
+h3 {
+  padding: 6px;
+}
+
+.board {
+  &__page {
+    display: flex;
+    flex-direction: row;
+  }
+
+  &__subpage {
+    width: 100%;
+    background-color: #F9F9F9;
+  }
+
+  &__component,
+  &__title {
+    width: 90%;
+    margin: 30px auto;
+    font-size: 2rem;
+    color: rgb(156, 156, 156);
+  }
+
+  &__component {
+    padding: 3%;
+
+    background-color: white;
+
+    border: solid lightgray 1px;
+    border-radius: 15px;
+    margin-bottom: 0.5em;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.035);
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+  }
+
+  &__subtitle {
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: center;
+    color: #1a3a58d7;
+    margin-bottom: 30px;
+  }
+
+  &__running-projects, &__finalized-projects {
+    width: 49%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &__finalized-projects {
+    border-left: lightgrey 1px solid;
+  }
+
+}
+
+

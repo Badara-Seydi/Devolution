@@ -1,0 +1,12 @@
+.loading {
+  background-color: #1A3A58;
+  background-image: linear-gradient(0deg,#1A3A58 0%, #12273b 100%);
+  background-repeat: no-repeat;
+  height: 100vh;
+  text-align: center;
+
+  &__logo{
+    width: 7%;
+    margin-top: 40vh;
+  }
+}

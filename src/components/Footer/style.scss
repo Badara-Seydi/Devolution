@@ -1,0 +1,30 @@
+.footer {
+  position: fixed;
+  z-index: 15;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(231, 231, 231);
+  border-right: 0px;
+  border-right: 0px;
+  padding-top: 0.8em;
+  padding-bottom: 1.1em;
+
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+
+  &__links {
+    display: flex;
+    flex-direction: row;
+  }
+
+  &__link {
+    border-left: solid 1px #12273b;
+    height: 15px;
+    line-height: 5px;
+
+    &-left {
+      border: none;
+    }
+  }
+}

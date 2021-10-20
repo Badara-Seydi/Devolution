@@ -1,0 +1,79 @@
+.charter {
+  max-width: 100%;
+  color: white;
+  background: linear-gradient(0deg, #1a3a58 20%, #12273b 100%);
+  background-color: #12273b;
+  padding: 35px;
+  text-align: center;
+  padding-top: 7vh;
+
+  &__title {
+    font-size: 4em;
+    font-weight: 600;
+    letter-spacing: 0.05rem;
+    margin: 3%;
+    margin-top: 2vh;
+  }
+
+  &__logo {
+    width: 120px;
+  }
+
+  &__description {
+    font-size: 1.6em;
+    font-weight: 500;
+    margin: 2% auto;
+    width: 80%;
+  }
+
+  &__component {
+    padding: 3%;
+
+    background-color: white;
+
+    border: solid lightgray 1px;
+    border-radius: 15px;
+    margin-bottom: 0.5em;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.035);
+
+    width: 90%;
+    margin: 30px auto;
+    font-size: 2rem;
+    color: rgb(156, 156, 156);
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  &__subtitle {
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: center;
+    color: #1a3a58d7;
+    margin-bottom: 30px;
+  }
+
+  &__bearer,
+  &__participant {
+    width: 49%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &__participant {
+    border-left: lightgrey 1px solid;
+  }
+
+  &__list {
+    font-size: 1.2rem;
+    line-height: 2rem;
+    text-align: left;
+    padding: 0 5%;
+  }
+
+  &__list-item {
+    padding: 2%;
+  }
+}

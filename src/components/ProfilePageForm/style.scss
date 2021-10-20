@@ -1,0 +1,111 @@
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.element-profile-form {
+  border: solid lightgray 1px;
+  border-radius: 15px;
+  margin-bottom: 0.5em;
+  padding: 0.8em;
+
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+}
+
+.profile {
+  &__titles {
+    width: 80%;
+  }
+}
+
+.profile-form {
+
+  &__picture{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+  }
+  
+  &__undertitle,
+  &__status-indicator,
+  &__surname,
+  &__name,
+  &__phone,
+  &__email,
+  &__city,
+  &__link-behance,
+  &__link-linkedin,
+  &__link-github,
+  &__description,
+  &__portfolio-link,
+  &__password-input {
+    width: 60%;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 10px;
+    border: solid lightgray 1px;
+  }
+
+  &__warning {
+    margin-top: 5px;
+    margin-left: 5px;
+    font-size: 0.9em;
+  }
+
+  &__description {
+    height: 100px;
+    border-radius: 15px;
+  }
+
+  &__undertitle,
+  &__surname,
+  &__name,
+  &__phone,
+  &__email,
+  &__city,
+  &__link-behance,
+  &__link-linkedin,
+  &__link-github,
+  &__description,
+  &__portfolio-link,
+  &__password-input:read-write {
+    font-family: "Nunito";
+  }
+
+  &__status-indicator {
+    overflow: hidden;
+    font-family: "Nunito";
+    border-radius: 10px;
+    width: 61%;
+  }
+
+  &__undertitle {
+    width: 75%;
+    height: 40px;
+  }
+
+  &__undertitle:read-write {
+    font-size: 1.2em;
+  }
+
+  &__send {
+    margin: 20px auto;
+    border-radius: 25px;
+    padding: 10px;
+    width: 20%;
+    min-width: 300px;
+    border: none;
+    background-color: #1a3a58;
+    color: white;
+    font-family: "Nunito";
+    font-size: 20px;
+  }
+
+  &__send:hover {
+    transform: translateY(-7px);
+    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.3);
+  }
+}

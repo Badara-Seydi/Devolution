@@ -1,0 +1,54 @@
+.about {
+  height: 92vh;
+  // max-width: 100%;
+  color: white;
+  background: linear-gradient(0deg, #1A3A58 20%, #12273b 100%);
+  background-color: #12273b;
+  padding: 35px;
+  text-align: center;
+
+  &__profiles {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    margin: 5%;
+  }
+
+  &__profile {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  &__title{
+    font-size: 3em;
+    font-weight: 600;
+    letter-spacing: .05rem;
+    margin: 10vh;
+  }
+
+  &__name{
+    font-size: 1.3em;
+    font-weight: 700;
+  }
+  
+  &__function{
+    font-size: 1.1em;
+    font-weight: 200;
+  }
+
+  &__image{
+    padding: 2%;
+    margin: 0 auto;
+    border-radius: 50%;
+    margin: 3%;
+    width: 50%;
+  }
+
+  &__external-link{
+    margin: 6px;
+  }
+}

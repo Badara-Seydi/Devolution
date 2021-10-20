@@ -1,0 +1,14 @@
+.project-home {
+  &__header {
+    margin-top: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2em;
+  }
+
+  &__icon {
+    width: 15%;
+  }
+}

@@ -1,0 +1,138 @@
+@use 'src/styles/vars';
+
+p,
+h3 {
+  padding: 6px;
+}
+
+.header{
+  &__user{
+    width: 100%;
+  }
+}
+
+.search {
+  &__page {
+    display: flex;
+    flex-direction: row;
+  }
+
+  &__subpage {
+    width: 100%;
+    background-color: #F9F9F9;
+
+  }
+
+  &__component,
+  &__title {
+    width: 90%;
+    margin: 30px auto;
+    font-size: 2rem;
+    color: rgb(156, 156, 156);
+  }
+
+  &__component {
+    padding: 3%;
+
+    background-color: white;
+    
+    border: solid lightgray 1px;
+    border-radius: 15px;
+    margin-bottom: 0.5em;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.035);
+
+    display: flex;
+    flex-direction: row;
+
+  }
+
+  @media (max-width: vars.$layout-breakpoint-small) {
+    height: 100%;
+
+    &__component {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    &__subpage {
+      margin-bottom: vars.$navbarHeigt;
+    }
+  }
+
+  &__subtitle {
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: center;
+    color: #1a3a58d7;
+    margin-bottom: 30px;
+  }
+
+  &__project, &__user {
+    width: 49%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &__icon{
+    height: 80px;
+    margin-bottom: 20px;
+  }
+
+  &__form {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &__input, &__button {
+    margin-bottom: 20px;
+    border-radius: 25px;
+    padding: 10px;
+    width: 70%;
+    min-width: 300px;
+    border:none;
+  }
+
+  &__input{
+    border: #1A3A58 1px solid;
+  }
+
+  &__input::placeholder {
+    font-family: 'Nunito';
+  }
+
+  &__button{
+    background-color: #1A3A58;
+    color: white;
+    font-family: 'Nunito';
+    font-size: 1.1rem;
+  }
+
+  &__user {
+    border-left: lightgrey 1px solid;
+  }
+
+  @media (max-width: vars.$layout-breakpoint-small) {
+    &__user {
+      border-left: none;
+      border-top: lightgrey 1px solid;
+    }
+  }
+
+  &__button-all{
+    margin-bottom: 20px;
+    border-radius: 25px;
+    padding: 10px;
+    width: 70%;
+    min-width: 300px;
+    border:none;
+    background-color: #1a3a581f;
+    color: #1a3a58;
+    font-family: 'Nunito';
+    font-size: 1.1rem;
+  }
+}
